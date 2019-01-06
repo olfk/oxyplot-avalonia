@@ -53,14 +53,15 @@ namespace AvaloniaExamples.Examples.OverlayDemo
 
             this.rect = new Rectangle
             {
-                Fill = new LinearGradientBrush
-                {
-                    GradientStops = new System.Collections.Generic.List<GradientStop>
-                    {
-                        new GradientStop(Colors.Black, 0),
-                        new GradientStop(Colors.Red, 1)
-                    }
-                }
+                // todo - figure out what changed here...
+                //Fill = new Avalonia.Media.LinearGradientBrush
+                //{                    
+                //    GradientStops = new System.Collections.Generic.List<GradientStop>
+                //    {
+                //        new GradientStop(Colors.Black, 0),
+                //        new GradientStop(Colors.Red, 1)
+                //    }
+                //}
             };
             canvas1.Children.Add(this.rect);
         }
